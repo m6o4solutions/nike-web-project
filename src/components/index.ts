@@ -5,6 +5,7 @@ import Hero from './hero';
 import NavigationBar from './navigation-bar';
 import PopularProductCard from './ui/popular-product-card';
 import PopularProducts from './popular-products';
+import ReviewCard from './ui/review-card';
 import ServiceCard from './ui/service-card';
 import Services from './services';
 import ShoeCard from './ui/shoe-card';
@@ -20,6 +21,7 @@ export {
 	NavigationBar,
 	PopularProductCard,
 	PopularProducts,
+	ReviewCard,
 	ServiceCard,
 	Services,
 	ShoeCard,
