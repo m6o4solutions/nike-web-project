@@ -3,6 +3,7 @@ import Button from './ui/button';
 import Footer from './footer';
 import Hero from './hero';
 import NavigationBar from './navigation-bar';
+import PopularProductCard from './ui/popular-product-card';
 import PopularProducts from './popular-products';
 import Services from './services';
 import ShoeCard from './ui/shoe-card';
@@ -16,6 +17,7 @@ export {
 	Footer,
 	Hero,
 	NavigationBar,
+	PopularProductCard,
 	PopularProducts,
 	Services,
 	ShoeCard,
