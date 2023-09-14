@@ -1,11 +1,11 @@
 import { star } from '../../assets/icons';
 
-interface ReviewCardProps {
+type ReviewCardProps = {
 	imgURL: string;
 	customerName: string;
 	rating: number;
 	feedback: string;
-}
+};
 
 const ReviewCard = ({ imgURL, customerName, rating, feedback }: ReviewCardProps) => {
 	return (

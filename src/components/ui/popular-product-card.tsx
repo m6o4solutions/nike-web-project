@@ -1,10 +1,10 @@
 import { star } from '../../assets/icons';
 
-interface PopularProductCardProps {
+type PopularProductCardProps = {
 	imgURL: string;
 	name: string;
 	price: string;
-}
+};
 
 const PopularProductCard = ({ imgURL, name, price }: PopularProductCardProps) => {
 	return (

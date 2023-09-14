@@ -1,8 +1,8 @@
-interface ServiceCardProps {
+type ServiceCardProps = {
 	imgURL: string;
 	label: string;
 	subtext: string;
-}
+};
 
 const ServiceCard = ({ imgURL, label, subtext }: ServiceCardProps) => {
 	return (

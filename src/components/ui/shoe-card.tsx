@@ -1,11 +1,11 @@
-interface ShoeCardProps {
+type ShoeCardProps = {
 	bigShoeImg: string;
 	changeBigShoeImage: (imgURL: string) => void;
 	imgURL: {
 		bigShoe: string;
 		thumbnail: string;
 	};
-}
+};
 
 const ShoeCard = ({ bigShoeImg, changeBigShoeImage, imgURL }: ShoeCardProps) => {
 	const handleClick = () => {

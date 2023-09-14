@@ -1,11 +1,11 @@
-interface ButtonProps {
+type ButtonProps = {
 	backgroundColor?: string;
 	borderColor?: string;
 	fullWidth?: boolean;
 	iconURL?: string;
 	label: string;
 	textColor?: string;
-}
+};
 
 const Button = ({
 	backgroundColor,
