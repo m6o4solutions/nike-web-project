@@ -1,4 +1,4 @@
-# Nike Website
+# Nike Web Project
 
 This is a Tailwind CSS learning project. The learning goals are;
 
